@@ -1,0 +1,7 @@
+﻿services:
+  profile:
+    image: profile
+    build:
+      context: .
+      dockerfile: Profile/Dockerfile
+
